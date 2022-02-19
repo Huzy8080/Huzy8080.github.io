@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      定制 vscode
+subtitle:   subtitle
+date:       2022-02-07
+author:     redme
+header-img: img/post-bg-cook.jpg
+catalog: true
+tags:
+    - 生产力工具
+---
+
+# 定制 vscode
+
+## 代码片段和代码模板
+
+比如要在写`.md`文档时,快捷插入代码片段,可以打开该类型文档的编辑器建议,方式如下:
+按`F1`或者`Ctrl + Shift + P`,输入 Settings, 打开 settings.json
+在文档末尾插入代码:
+
+```json
+"[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+```
+
+再打开`用户片段`
+![20220207221242](http://image.redme.vip/20220207221242.png)
+输入代码:
+
+````javascript
+	"codejs":{
+		"prefix": "codejs",
+		"body": [
+			"```javascript",
+			"$1",
+			"```"
+		],
+		"description": "add javascript code"
+	},
+````
+
+如图:
+![20220207221627](http://image.redme.vip/20220207221627.png)
