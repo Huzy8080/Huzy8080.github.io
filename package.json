@@ -1,9 +1,9 @@
 {
-    "name": "by-blog",
-    "title": "BY Blog",
-    "author": "BY <qiubaiyingios@163.com>",
+    "name": "redme-blog",
+    "title": "Redme Blog",
+    "author": "Redme <huzy8080@hotmail.com>",
     "version": "1.7.0",
-    "homepage": "http://qiubaiying.github.io",
+    "homepage": "blog.redme.vip",
     "repository": {
         "type": "git",
         "url": "https://github.com/Huzy8080/Huzy8080.github.io"
