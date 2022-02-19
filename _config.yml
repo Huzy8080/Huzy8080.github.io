@@ -1,10 +1,10 @@
 # Site settings
-title: Redme个人博客
-SEOTitle:  Redme个人博客
+title: Redme Blog
+SEOTitle:  Redme Blog
 header-img: img/post-bg-desk.jpg
 email: huzy8080@hotmail.com
-description: "治软件, 如烹小鲜"
-keyword: "个人博客"
+description: "写代码, 如烹小鲜"
+keyword: "Redme Blog"
 url: "https://Huzy8080.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Huzy8080/Huzy8080.github.io.git" # you code repository
