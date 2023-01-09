@@ -46,3 +46,4 @@ django_learning> dl_env\Scrippt\activate
 1. 如果系统安装了多个版本，创建虚拟环境时要指定Python版本
 2. 必须要激活虚拟环境，才能使用django-admin命令
 3. runserver 命令可指定IP和port
+4. [Django官网教程](https://www.djangoproject.com/)
